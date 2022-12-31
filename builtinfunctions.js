@@ -12,8 +12,8 @@ console.log(' ' + isOkay)
 
 const xyz = 123;
 
-const ab = (xyz).toString
-const bc = (isOkay).toString
+const ab = ((xyz).toString())
+const bc = ((isOkay).toString())
 
 console.log(ab)
 console.log(bc)
