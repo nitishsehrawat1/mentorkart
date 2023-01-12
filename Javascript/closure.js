@@ -4,7 +4,8 @@ function linearData(){ // outer function
     function plotdata() { // inner function
         console.log(arr);
     }
-    plotdata()
+plotdata()
+    
 }
 linearData()
-// console.log(plotdata)
+console.log(arr)
