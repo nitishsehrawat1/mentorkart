@@ -6,3 +6,5 @@ function linearData(){ // outer function
     }
     plotdata()
 }
+linearData()
+// console.log(plotdata)
