@@ -144,3 +144,12 @@ html {
   text-align: center;
   font-weight: 700;
 }
+
+a:hover , button:hover{
+  font-weight: bolder;
+  color: black;
+}
+
+button:hover {
+  background-color: aqua;
+}
