@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    display: flex;
+    /* justify-content: center; */
+    padding: 10vw 0 0 5vw;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 40vw;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40vw;
+    height: 30vw;
+    margin-left: 5vw;
+    border-radius: 10px;
+    box-shadow: 1px 10px 10px rgb(94, 93, 93);
+}
+.logo>img{
+  height: 10vw;
+  
+}
+
+.des{
+    /* width: 400px; */
+    font-size: 2.3vw;
+    font-weight: 500;
+    margin-left: 3vw;
+}
+
+.email{
+    width: 33vw;
+    height: 4vw;
+    font-size: 1.5vw;
+    padding-left: 1.5vw;
+    margin-top: 2vw;
+    border-radius: 7px;
+    border: 1.1px solid rgb(70, 68, 68);
+}
+
+.loginbutton{
+    width: 34vw;
+    height: 3vw;
+    background-color: #1877f2;
+    border: none;
+    font-size: 2vw;
+    color: white;
+    font-weight: bold;
+    border-radius: 6px;
+}
+
+.forgot{
+    font-size: 1.5vw;
+    padding: 2vw;
+    text-decoration: none;
+    
+}
+
+.newAccount{
+    width: 17vw;
+    height: 3vw;
+    background-color: #42B72A;
+    border: none;
+    font-size: 1.5vw;
+    color: white;
+    font-weight: bold;
+    border-radius: 6px;
+    
+}
