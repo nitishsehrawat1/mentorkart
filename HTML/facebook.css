@@ -16,13 +16,14 @@ main{
 }
 
 .form{
+    width: 40vw;
+    height: 30vw;
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 40vw;
-    height: 30vw;
+    /* justify-content: center; */
     margin-left: 5vw;
-    border-radius: 10px;
+    border-radius: 1vw;
     box-shadow: 1px 10px 10px rgb(94, 93, 93);
 }
 .logo>img{
@@ -31,7 +32,7 @@ main{
 }
 
 .des{
-    /* width: 400px; */
+    width: 35vw;
     font-size: 2.3vw;
     font-weight: 500;
     margin-left: 3vw;
@@ -43,7 +44,7 @@ main{
     font-size: 1.5vw;
     padding-left: 1.5vw;
     margin-top: 2vw;
-    border-radius: 7px;
+    border-radius: 1vw;
     border: 1.1px solid rgb(70, 68, 68);
 }
 
@@ -55,7 +56,7 @@ main{
     font-size: 2vw;
     color: white;
     font-weight: bold;
-    border-radius: 6px;
+    border-radius: 1vw;
 }
 
 .forgot{
@@ -73,6 +74,6 @@ main{
     font-size: 1.5vw;
     color: white;
     font-weight: bold;
-    border-radius: 6px;
+    border-radius: 1vw;
     
 }
